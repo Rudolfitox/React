@@ -1,17 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 // import { CounterApp } from './components/01-useState/CounterApp';
 // import { CounterWithCustomHook } from './components/01-useState/CounterWithCustomHook';
 // import { SimpleForm } from './components/02-useEffect/SimpleForm';
 // import HookApp from './HookApp';
-
-import { FormWithCustomHook } from './components/02-useEffect/FormWithCustomHook';
+// import { FormWithCustomHook } from './components/02-useEffect/FormWithCustomHook';
+// import { MultipleCustomHooks } from './components/03-examples/MultipleCustomHooks';
+// import { FocusScreen } from './components/04-useRef/FocusScreen';
+// import { RealExampleRef } from './components/04-useRef/RealExampleRef';
+// import { LayOutEffect } from './components/05-useLayoutEffect/LayoutEffect';
+// import { Memorize } from './components/06-memos/Memorize';
+//import { MemoHook } from './components/06-memos/MemoHook';
+import { CallBackHook } from './components/06-memos/CallBackHook';
+import { Padre } from './components/07-tarea-memo/Padre';
 
 
 const divRoot = document.querySelector('#root');
 
 //ReactDOM.render(<CounterApp />,divRoot);
 //ReactDOM.render(<CounterWithCustomHook/>,divRoot);
-// ReactDOM.render(<SimpleForm/>,divRoot);
+//ReactDOM.render(<SimpleForm/>,divRoot);
+//ReactDOM.render(<FormWithCustomHook/>,divRoot);
 
-ReactDOM.render(<FormWithCustomHook/>,divRoot);
+ReactDOM.render(<Padre/>,divRoot);
