@@ -12,9 +12,9 @@ import ReactDOM from 'react-dom';
 // import { LayOutEffect } from './components/05-useLayoutEffect/LayoutEffect';
 // import { Memorize } from './components/06-memos/Memorize';
 //import { MemoHook } from './components/06-memos/MemoHook';
-import { CallBackHook } from './components/06-memos/CallBackHook';
-import { Padre } from './components/07-tarea-memo/Padre';
-
+// import { CallBackHook } from './components/06-memos/CallBackHook';
+// import { Padre } from './components/07-tarea-memo/Padre';
+import { TodoApp } from './components/08-useReducer/TodoApp';
 
 const divRoot = document.querySelector('#root');
 
@@ -23,4 +23,6 @@ const divRoot = document.querySelector('#root');
 //ReactDOM.render(<SimpleForm/>,divRoot);
 //ReactDOM.render(<FormWithCustomHook/>,divRoot);
 
-ReactDOM.render(<Padre/>,divRoot);
+ReactDOM.render(<TodoApp/>,divRoot);
+
+// import './components/08-useReducer/intro-reducer'
